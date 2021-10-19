@@ -5,7 +5,7 @@ from tensorflow.keras.models import Model, load_model
 data_test = "./data"
 model_path = "./model.h5"
 
-batch_size = 128
+batch_size = 32
 n_classes = 75
 img_width, img_height = 299, 299
 
