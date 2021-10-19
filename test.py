@@ -1,3 +1,6 @@
+# Autur: Ali Saberi
+# Email: ali.saberi96@gmail.com
+
 import os
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import Model, load_model

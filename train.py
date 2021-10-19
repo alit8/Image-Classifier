@@ -1,3 +1,9 @@
+# Autur: Ali Saberi
+# Email: ali.saberi96@gmail.com
+
+
+########## A General Image Classifier ##########
+
 #-----> Creating train and validation split ---> comment these 3 lines if you have your own train and validation data
 # import splitfolders
 # data_path = "./data" # path to directory containing class folders
@@ -19,13 +25,13 @@ top_weights_path = os.path.join(os.path.abspath(model_dir_path), 'top_model_weig
 final_weights_path = os.path.join(os.path.abspath(model_dir_path), 'model_weights.h5')
 model_path = os.path.join(os.path.abspath(model_dir_path), 'model.h5')
 
-n_classes = 75
+n_classes = 75 # number of classes
 # based_model_last_block_layer_number = 403 # for InceptionResNetV2
 based_model_last_block_layer_number = 36
 # img_width, img_height = 331, 331
 img_width, img_height = 299, 299
 # img_width, img_height = 224, 224
-batch_size = 128
+batch_size = 32
 n_epoch = 50
 lr = 1e-5
 momentum = 0.9
